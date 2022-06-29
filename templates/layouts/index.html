@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- 
+
       En esta parte se llama a la carpeta de estilos static y la carpeta de script de javascript, y tambien 
-      se llama el estilo del framework de boostrap.
+      se llama el estilo del framework de boostraps, para darle estilo e interacion a la aplicacion, ya que se utiliza
+      la aplicacion de Flask, jinja, entre otros.  
     -->
     {% block head %}
     <!--Librerias de CSS y Javascript  de Boosttraps -->
@@ -21,6 +23,7 @@
     <link rel="stylesheet" href="../static/css/estilos.css">
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <title>{% block title %}{% endblock %} Block Jumper Game </title>
+    {% endblock %}
 
 </head>
 <!--Aqui se llama al juego para que se inicie en el body y comience el desarrollo-->
@@ -47,7 +50,7 @@
       de bootraps como de CSS -->
     <div id="footer" class="container text-center bg-warning">
         {% block footer %}
-        &copy; Copyright @Jonathan Lopez
+        &copy; Copyright @Jonathan Lopez - Juego Con Javascript
         {% endblock %}
     </div>
 </body> 

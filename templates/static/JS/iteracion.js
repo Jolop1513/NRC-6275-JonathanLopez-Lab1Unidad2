@@ -1,7 +1,7 @@
 // Se declaran las variable a utilizarse en canvas la parte grafica 
 //este el del bloque de canvas altura y ancho  
-var canvasWidth = 600;
-var canvasHeight = 400;
+var canvasWidth = 610;
+var canvasHeight = 410;
 
 var player;
 var playerYPosition = 200;

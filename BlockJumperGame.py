@@ -9,15 +9,12 @@ mediante flask utilizando sus respectivas librerias.
 app = Flask(__name__)
 
 """
-Este es el paquete para llamar los templates estaticos que estan en la carpeta
-de templates, como los css ,javscript y imagenes.
+Este es el paquete para llamar los templates estaticos
 """
 app._static_folder = os.path.abspath("templates/static/")
 
 """
-En esta parte se llama a la pagina principal del juego para que luego 
-se ejcute de manera correcta y sastifactoria, ya que se representa mediante un
-canvas.  
+En esta parte se llama a la pagina principal del juego 
 """
 @app.route("/", methods = ["GET"])
 def index():
@@ -25,8 +22,7 @@ def index():
 
 
 """
-Este es el main principal de nuestro aplicacion Game, se ejecuta mediante el localhost, que nos 
-va a permitir realizar dicha conexion.   
+Este es el main principal de nuestro aplicacion Game
 """
 if __name__ == "__main__":
      app.run(debug=True)

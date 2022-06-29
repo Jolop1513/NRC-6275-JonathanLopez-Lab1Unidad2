@@ -1,6 +1,3 @@
-#Nombre: Jhostyn Javier Gavilanez Suarez 
-# APP Block Jumper Game
-
 # Se importan las librerias necesarias para trabajar con el framwork Flask
 import os
 from flask import Flask, render_template

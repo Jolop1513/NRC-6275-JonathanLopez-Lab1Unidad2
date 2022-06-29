@@ -28,6 +28,6 @@ canvas {
 /*Este codigo sirve para darle un estilo al boton es decir, realizar cambio de 
 color al momento de pasar el mouse por el boton*/ 
 #btnInicio:hover {
-    color: #1883ba;
+    color: #1884ba;
     background-color: #ffffff;
 }
